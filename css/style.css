@@ -1,0 +1,270 @@
+
+body{
+	font-family: 'Lato';
+}
+
+
+header{
+	margin: 0 auto;
+	max-width: 810px;
+}
+
+.header-cheapter__main{
+	font-weight: 900;
+	font-size: 45px;
+	margin-bottom: 90px;
+	line-height: 130%;
+	margin-top: 190px;
+}
+
+.header-img{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+
+.imagin{
+	max-width: 100%;
+}
+
+main{
+	margin: 0 auto;
+	max-width: 810px;
+}
+
+
+
+.main-header-content-text{
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 25px;
+	line-height: 150%;
+}
+
+
+
+.content{
+	line-height: 160%;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+
+
+.main-botttom-chepter{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	background: url('../img/icons/braces.svg') 0 0 no-repeat;
+	margin-bottom: 48px;
+	padding-left: 60px;
+}
+
+footer{
+	margin: 0 auto;
+	max-width: 810px;
+}
+
+.footer-text{
+	line-height: 160%;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.topic li{
+	background: url('../img/icons/Vector.svg') 0 6px no-repeat;
+	line-height: 170%;
+	padding-left: 30px;
+
+}
+
+.topic{
+	margin-bottom: 25px;
+}
+
+.bottom{
+	line-height: 25px;
+	margin-bottom: 400px;
+}
+
+
+
+
+
+/* мои эксперименты*/
+
+.wrapper{
+	background-color: rgb(255, 209, 209, 0.5);	
+}
+
+
+.header-2{
+	margin: 0 auto; 
+	max-width: 900px;
+	padding: 20px;
+}
+
+.main__title{
+	margin-bottom: 10px; 
+	height: 50px;
+	width: 200px;
+	background-color: rgb(255, 255, 255);
+	margin-left: 305px;
+	padding-left: 8px;
+	border: 3px solid rgb(119, 179, 0);
+}
+
+.title{
+	font-family: "larsseit" ;
+	font-size: 35px;
+	text-transform: uppercase;
+	border: 2px solid yellowgreen;
+}
+
+[class*=__text]{
+	margin-bottom: 30px; 
+} 
+
+.head__text{
+	background-color: rgb(75, 75, 173);
+	max-width: 500px; 
+	color: white;
+	max-height: 80px;
+	overflow: scroll;
+	margin-top: 20px;
+	border-radius: 20px; 
+}
+
+.main-2{
+	margin: 0 auto; 
+	max-width: 1000px; 
+	padding: 20px;
+}
+
+.span{
+	display: inline-block;
+	max-width: 300px;
+	background-color: yellowgreen;
+}
+
+.image-work{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px; 
+	margin-bottom: -50px; 
+	border: 5px solid goldenrod;
+	outline: 8px solid yellow;
+}
+
+.items{
+	font-size: 0px;
+	margin: -88px 0px 65px 528px;
+}
+
+.item{
+	font-size: 20px;
+	background-color: plum;
+	width: 100px;
+	display: inline-block;
+	padding: 15px;
+	margin: 5px 0px 0 0;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+
+.body__text p{
+	opacity: 0.5;
+}
+
+.body__text{
+	background-color: rgb(75, 75, 173);
+	border-left: 5px dotted yellow;
+	border-right: 7px dashed khaki;
+	border-bottom: 8px double lavender;
+	border-top: 6px solid violet;
+}
+
+.bottom__text span{
+	border: 2px solid black;
+	background-color: rgb(88, 175, 88);
+	line-height: 200%;
+}
+
+.footer-2{
+	margin: 0 auto; 
+	max-width: 1000px; 
+	padding: 20px;
+}
+
+
+
+a{
+	margin-right: 20px;
+}
+
+.blue:focus{
+	outline: 2px solid blue;
+}
+
+.yellow:focus{
+	outline: 2px solid yellow;
+}
+
+.red:focus{
+	outline: 2px solid red;
+}
+
+.main-text{
+	margin: 20px 0px 0px 60px;
+	max-width: 600px; 
+	background-color: steelblue;
+	border-radius: 10px / 100px; 
+	padding: 10px;
+	border-left: 8px solid white;
+	border-right: 8px solid white;
+	outline: 3px solid steelblue;
+}
+
+.around{
+	width: 100px;
+	height: 100px;
+	background-color: cyan;
+	border-radius: 100px; 
+	margin: 20px;
+	box-shadow: inset 15px 5px 5px 4px black;
+}
+
+.around-text{
+	background-color: darkmagenta;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px; 
+	margin: -120px 0px 0px 165px;
+	overflow: hidden;
+	color: white;
+}
+
+.button{
+	width: 150px;
+	height: 50px;
+	background-color: aquamarine;
+	border-radius: 50px; 
+	text-transform: uppercase;
+	color: brown;
+	box-shadow: 10px 10px 5px blue;
+	margin: 0px 0px 0px 350px;
+	padding: 10px;
+}
+
+.button:hover{
+	background-color: blue;
+	color: white;
+	box-shadow: 5px 5px 2px rgb(255, 157, 157);
+}
+
+.button:active{
+	background-color: rgb(106, 106, 255);
+	color: white;
+	box-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
